@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Sample Cloudformation template to deploy EC2 Instance
+
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      KeyName: Onica-KeyPair
+      ImageId: ami-00dc79254d0461090
+      Tags:
+        - Key: Name
+          Value: Prod-App-Instance
