@@ -11,5 +11,3 @@ Resources:
       Tags:
         - Key: Name
           Value: Prod-App-Instance
-        - Key: By
-          Value: Others
